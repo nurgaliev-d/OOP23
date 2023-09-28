@@ -1,0 +1,27 @@
+
+public class Student {
+
+	static String name;
+	static int yearOfStudy;
+	static int counter;
+	int id;
+	
+	public Student() {
+		id = counter++;
+	}
+	public Student(String name, int yearOfStudy) {
+		this( );
+		this.name = name;
+		this.yearOfStudy = yearOfStudy;
+		
+	}
+	public String toString() {
+		return this.name+ " " + yearOfStudy;
+	}
+	public String getName() {
+		return this.name;
+	}
+	public void setName() {
+		this.name = name;
+	}
+}

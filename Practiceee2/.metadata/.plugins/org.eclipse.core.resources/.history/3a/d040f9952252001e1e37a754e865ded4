@@ -1,0 +1,14 @@
+
+public class testStudent {
+
+	public static void main(String[] args) {
+		
+		// TODO Auto-generated method stub
+
+		Student Dias = new Student("Dias", 1);
+		Student Magzhan = new Student("Magzhan", 2);
+		System.out.println(Dias);
+		System.out.println(Magzhan);
+	}
+
+}

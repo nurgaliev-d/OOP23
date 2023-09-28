@@ -1,0 +1,19 @@
+
+public class testStudent {
+
+	public static void main(String[] args) {
+		
+		// TODO Auto-generated method stub
+		Student Dias = new Student();
+		Dias.name = "Dias";
+		Dias.yearOfStudy = 2;
+
+		Student Magzhan = new Student("Magzhan", 2);
+		
+		
+		
+		System.out.println(Magzhan);
+		System.out.println(Dias);
+	}
+
+}
