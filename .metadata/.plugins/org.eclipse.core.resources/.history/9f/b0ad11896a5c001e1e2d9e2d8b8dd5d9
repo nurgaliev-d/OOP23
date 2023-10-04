@@ -1,4 +1,0 @@
-package labWork1;
-public enum Gebder {
-MALE, FEMALE
-}

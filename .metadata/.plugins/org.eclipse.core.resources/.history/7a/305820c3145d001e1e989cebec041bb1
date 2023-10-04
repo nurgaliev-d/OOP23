@@ -1,5 +1,0 @@
-package labWork1;
-public enum Faculty {
-
-	FIT, BS, FOGI;
-}
